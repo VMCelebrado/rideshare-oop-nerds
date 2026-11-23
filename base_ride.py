@@ -10,10 +10,12 @@ class Ride(ABC):
     def calculate_fare(self):
         pass
     
+    @abstractmethod
     def start_ride(self):
         pass
 
+    @abstractmethod
     def complete_ride():
         pass
 
-        
+
